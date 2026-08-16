@@ -1,0 +1,41 @@
+site_name: Open Texts
+site_url: https://texts.souravkulkarni.com
+site_description: A curated digital library of public domain texts, digitized and translated by Sourav Kulkarni.
+site_author: Sourav Kulkarni
+
+repo_name: sourav-kulkarni/open-texts
+repo_url: https://github.com/sourav-kulkarni/open-texts
+
+theme:
+  name: material
+  palette:
+    scheme: default
+  font:
+    text: EB Garamond
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: false
+  - pymdownx.details
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sourav-kulkarni
+    - icon: fontawesome/solid/globe
+      link: https://souravkulkarni.com

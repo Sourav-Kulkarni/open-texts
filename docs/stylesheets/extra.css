@@ -1,0 +1,195 @@
+/* ── Tokens ──────────────────────────────────────────────── */
+:root {
+  --page-bg:    #f7f4ef;
+  --text:       #1a1a1a;
+  --muted:      #555;
+  --border:     #d4cfc8;
+  --accent:     #5a3e2b;
+  --nav-bg:     #eeeae3;
+  --measure:    68ch;
+}
+
+/* ── Page background ─────────────────────────────────────── */
+body,
+.md-main,
+.md-container {
+  background: var(--page-bg);
+}
+
+/* ── Header — minimal ────────────────────────────────────── */
+.md-header {
+  background: var(--page-bg);
+  box-shadow: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+.md-header__title,
+.md-header__topic {
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.md-search__input {
+  background: #e0dbd3;
+  color: #1a1a1a;
+  font-size: 0.85rem;
+}
+
+.md-search__input::placeholder {
+  color: #555;
+  opacity: 1;
+}
+
+.md-search__icon {
+  color: #1a1a1a;
+}
+
+/* ── Left nav — library feel ─────────────────────────────── */
+.md-sidebar--primary {
+  /* background: var(--nav-bg); */
+  border-right: 1px solid var(--border);
+}
+
+.md-search__icon svg {
+  fill: #1a1a1a;
+}
+
+.md-nav--primary .md-nav__title {
+    background: none;
+    box-shadow: none;
+}
+
+.md-nav--primary .md-nav__list > .md-nav__item:first-child > .md-nav__link {
+  display: none;
+}
+
+.md-nav__title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0.8rem 0.6rem 0.2rem;
+}
+
+.md-nav__item {
+  font-size: 0.82rem;
+  line-height: 1.2;
+  overflow: visible;
+}
+
+.md-nav__link {
+  color: var(--muted);
+  padding: 0.1rem 0.6rem;
+  border-radius: 0;
+  overflow: visible;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: var(--accent);
+  background: transparent;
+}
+
+.md-nav--secondary .md-nav__item {
+  line-height: 1;
+}
+
+.md-nav--secondary .md-nav__link {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 0;
+}
+
+.md-nav--secondary .md-nav__title {
+ box-shadow: none;
+ background: none;
+ 
+}
+/* ── Main content column ─────────────────────────────────── */
+.md-content {
+  background: var(--page-bg);
+}
+
+.md-content__inner {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+/* ── Typography ──────────────────────────────────────────── */
+.md-typeset {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  color: var(--text);
+  hyphens: none;
+  text-align: justify;
+}
+
+.md-typeset code {
+  font-size: 0.6rem;
+}
+
+.md-typeset h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
+  color: var(--text);
+}
+
+.md-typeset h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 2.2rem;
+  margin-bottom: 0.2rem;
+  color: var(--text);
+}
+
+.md-typeset h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  margin-bottom: 0.1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.md-typeset p {
+  margin-bottom: 0.7rem;
+}
+
+/* ── Verse / stage directions ────────────────────────────── */
+.md-typeset blockquote {
+  border-left: 2px solid var(--border);
+  margin: 0.8rem 0 0.8rem 0;
+  padding: 0.1rem 1.2rem;
+  color: var(--muted);
+  /* font-style: italic; */
+  background: transparent;
+  box-shadow: none;
+}
+
+.md-typeset blockquote p {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+/* ── Footer — minimal ────────────────────────────────────── */
+.md-footer {
+  background: var(--page-bg);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.md-footer-meta {
+  background: var(--page-bg);
+}
