@@ -33,9 +33,18 @@ body,
 }
 
 .md-search__input {
-  background: #e8e4dd;
-  color: var(--text);
+  background: #e0dbd3;
+  color: #1a1a1a;
   font-size: 0.85rem;
+}
+
+.md-search__input::placeholder {
+  color: #555;
+  opacity: 1;
+}
+
+.md-search__icon {
+  color: #1a1a1a;
 }
 
 /* ── Left nav — library feel ─────────────────────────────── */
@@ -44,9 +53,17 @@ body,
   border-right: 1px solid var(--border);
 }
 
+.md-search__icon svg {
+  fill: #1a1a1a;
+}
+
 .md-nav--primary .md-nav__title {
     background: none;
     box-shadow: none;
+}
+
+.md-nav--primary .md-nav__list > .md-nav__item:first-child > .md-nav__link {
+  display: none;
 }
 
 .md-nav__title {
@@ -66,9 +83,11 @@ body,
 
 .md-nav__link {
   color: var(--muted);
-  padding: 0.2rem 0.6rem;
+  padding: 0.1rem 0.6rem;
   border-radius: 0;
+  overflow: visible;
   line-height: 1.5;
+  margin-top: 0;
 }
 
 .md-nav__link:hover,
