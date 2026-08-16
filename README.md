@@ -71,7 +71,7 @@ All contributions and corrections must conform to this schema.
 ```bash
 pip install mkdocs-material
 mkdocs serve        # preview at http://127.0.0.1:8000
-mkdocs gh-deploy    # build and push to gh-pages branch
+mkdocs gh-deploy --force   # build and push to gh-pages branch
 ```
 
 ---
