@@ -2,18 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://texts.souravkulkarni.com/</loc>
-         <lastmod>2026-08-16</lastmod>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/kalidasa/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/kalidasa/raghuvamsha/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/kalidasa/ritusamhara/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/kalidasa/shankuntala/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/savarkar/</loc>
-         <lastmod>2026-08-16</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/savarkar/essentials-of-hindutva/</loc>
-         <lastmod>2026-08-16</lastmod>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/savarkar/hindu-pad-padshahi/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/savarkar/sanyasta-khadga/</loc>
-         <lastmod>2026-08-16</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
 </urlset>
