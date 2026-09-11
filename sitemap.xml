@@ -2,38 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://texts.souravkulkarni.com/</loc>
-         <lastmod>2026-08-27</lastmod>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/Samartha%20Ramdas/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/Samartha%20Ramdas/manache-shlok/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/V.%20D.%20Savarkar/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/V.%20D.%20Savarkar/essentials-of-hindutva/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/V.%20D.%20Savarkar/hindu-pad-padshahi/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/V.%20D.%20Savarkar/sanyasta-khadga/</loc>
+         <lastmod>2026-09-11</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/kalidasa/</loc>
-         <lastmod>2026-08-27</lastmod>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://texts.souravkulkarni.com/kalidasa/malavikagnimitram/</loc>
+         <lastmod>2026-09-11</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/kalidasa/raghuvamsha/</loc>
-         <lastmod>2026-08-27</lastmod>
+         <lastmod>2026-09-11</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/kalidasa/ritusamhara/</loc>
-         <lastmod>2026-08-27</lastmod>
+         <lastmod>2026-09-11</lastmod>
     </url>
     <url>
          <loc>https://texts.souravkulkarni.com/kalidasa/shankuntala/</loc>
-         <lastmod>2026-08-27</lastmod>
+         <lastmod>2026-09-11</lastmod>
     </url>
     <url>
-         <loc>https://texts.souravkulkarni.com/savarkar/</loc>
-         <lastmod>2026-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://texts.souravkulkarni.com/savarkar/essentials-of-hindutva/</loc>
-         <lastmod>2026-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://texts.souravkulkarni.com/savarkar/hindu-pad-padshahi/</loc>
-         <lastmod>2026-08-27</lastmod>
-    </url>
-    <url>
-         <loc>https://texts.souravkulkarni.com/savarkar/sanyasta-khadga/</loc>
-         <lastmod>2026-08-27</lastmod>
+         <loc>https://texts.souravkulkarni.com/kalidasa/vikramorvashiyam/</loc>
+         <lastmod>2026-09-11</lastmod>
     </url>
 </urlset>
